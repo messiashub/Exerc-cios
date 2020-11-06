@@ -1,0 +1,33 @@
+.todo{
+    width: 500px;
+    margin: auto;
+}
+.todo h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: red;
+}
+.form{
+    width: 400px;
+    
+    background-color: aquamarine;
+    color: blue;
+   
+    border: 1px solid ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form legend{   
+    font-size: 1.5em;
+    color: blue;
+}
+input{
+    margin: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+.caixa{
+    width: 350px;
+    height: 250px;
+    border: 1px solid;
+    
+}
