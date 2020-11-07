@@ -2,29 +2,24 @@
 
 
 function calcMedia(){
-    let nome = document.getElementById('nome').value;
-    console.log(nome);
-    let nota1 = parseInt(document.getElementById("nota1").value);
-    console.log(nota1);
-    
-    let nota2 = parseInt(document.getElementById("nota2").value);
-    console.log(nota2);
+    let nome = document.getElementById("nome").value;
+    let nota1 = parseFloat(document.getElementById("nota1").value);   
+    let nota2 = parseFloat(document.getElementById("nota2").value);  
    
 
-    let media = (nota1 + nota2)/2;
-    console.log(media);
-    
-
+    let media = (nota1 + nota2)/2;  
     let nota = ""
-
+    
+    
     if(media < 5){
-        nota = "reprovado, estude mais"
+        nota = "reprovado(a), estude mais!"
     }else if(media >= 5 && media <= 8){
-        nota = "aprovado"
+        nota = "aprovado(a)"
     }else{
-        nota = "aprovado com louvor!"
+        nota = "aprovado(a) com louvor!"
     } 
 
-    document.querySelector(".resultado").innerHTML =`${nome} você foi ${nota} sua media foi ${media} pontos`;
+     document.querySelector(".resultado").innerHTML =`${nome} você foi ${nota} Sua média foi de ${media} pontos`;  
     
 } 
+ 

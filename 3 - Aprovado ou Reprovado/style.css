@@ -26,8 +26,14 @@ input{
     font-size: 1.2em;
 }
 .caixa{
-    width: 350px;
-    height: 250px;
-    border: 1px solid;
+    width: 380px;
+    padding: 10px;
+    height: 100px;
+    border: 1px solid aquamarine;
     
+}
+.caixa .resultado{
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
