@@ -21,5 +21,6 @@ function calcMedia(){
 
      document.querySelector(".resultado").innerHTML =`${nome} você foi ${nota} Sua média foi de ${media} pontos`;  
     
-} 
+}
+console.log(eu);
  
